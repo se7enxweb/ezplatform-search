@@ -38,7 +38,7 @@
     "test": "phpunit -c phpunit.xml"
   },
   "replace": {
-    "ezsystems/ezplatform-search": "self.version"
+    "ezsystems/ezplatform-search": "*"
   },
   "extra": {
     "branch-alias": {
