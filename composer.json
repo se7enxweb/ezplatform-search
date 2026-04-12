@@ -37,6 +37,9 @@
     "check-cs": "@fix-cs --dry-run",
     "test": "phpunit -c phpunit.xml"
   },
+  "replace": {
+    "ezsystems/ezplatform-search": "self.version"
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "1.2.x-dev"
